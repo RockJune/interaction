@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 500vh; /* Used to enable scrolling */
+    background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+  }
+
+  .topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: black;
+    transition: .5s;
+  }
+  
+  section{
+    width: 100%;
+    height: 100vh;
+  }
